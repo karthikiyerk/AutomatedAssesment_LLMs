@@ -1,0 +1,16 @@
+#For use please rename the file to .env and make sure to address this in the code!
+
+#For MODELS run locally please use this configuration; Ex: DeepSeekR1 and Llama3.1
+OPENAI_API_BASE=http://localhost:11434/v1
+OPENAI_MODEL_NAME= #The Model name created for CrewAI; eg:crewai-llama3
+OPENAI_API_KEY=NA
+
+#For running through and API KEY
+GROQ_API_KEY= #Your OpenAI API Key Here!
+
+#For DB Connection 
+NEO4J_URI=
+NEO4J_USERNAME=
+NEO4J_PASSWORD=
+NEO4J_DATABASE=
+
